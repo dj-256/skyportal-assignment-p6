@@ -339,6 +339,8 @@ data class Source(
     val dec: Double,
     val thumbnails: List<Thumbnail>,
     val summary: String? = null,
-    val classifications: List<String>,
+    val classifications: List<Classification>,
+    val comments: List<Comment>? = null,
+    val followupRequests: List<FollowupRequest>? = null,
 ) {
 }

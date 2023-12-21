@@ -3,29 +3,58 @@
     "ra_dis": null,
     "redshift_origin": null,
     "e_mag_nearest_source": null,
-    "score": null,
-    "modified": "2023-09-14T04:30:23.749616",
-    "id": "WNTR23aaaws",
+    "score": 0.9999756813049316,
+    "modified": "2023-03-14T16:56:00.991910",
+    "id": "ZTF22aavzfwp",
     "redshift_history": null,
     "transient": false,
-    "ra": 271.0403312264301,
-    "dec": -20.389258007972437,
+    "ra": 272.0206097,
+    "dec": 66.1812516,
     "dec_dis": null,
     "host_id": null,
     "varstar": false,
-    "origin": "mirar:0.9.2",
+    "origin": "Kowalski",
     "ra_err": null,
-    "summary": null,
+    "summary": "The astronomical source with ID ZTF22aavzfwp has been classified as a supernova. The most recent comment suggests that it appears to be a supernova, and there is no information provided about its redshift or any other properties.",
     "is_roid": false,
     "alias": null,
     "dec_err": null,
-    "summary_history": null,
+    "summary_history": [
+      {
+        "is_bot": true,
+        "summary": "The astronomical source with ID ZTF22aavzfwp has been classified as a supernova. The most recent comment suggests that it appears to be a supernova, and there is no information provided about its redshift or any other properties.",
+        "set_at_utc": "2023-03-14T16:56:01.031435",
+        "analysis_id": 4,
+        "set_by_user_id": 1048
+      },
+      {
+        "is_bot": false,
+        "summary": null,
+        "set_at_utc": "2023-03-14T16:55:49.322225",
+        "analysis_id": null,
+        "set_by_user_id": 1048
+      },
+      {
+        "is_bot": true,
+        "summary": "The astronomical source with ID ZTF22aavzfwp has been classified as a supernova. The most recent comment suggests that it appears to be a supernova, and there is no information provided about its redshift or any other properties.",
+        "set_at_utc": "2023-03-10T00:00:46.460968",
+        "analysis_id": 3,
+        "set_by_user_id": 45
+      },
+      {
+        "is_bot": false,
+        "summary": "Test summary.",
+        "set_at_utc": "2023-03-09T22:13:19.435000",
+        "analysis_id": null,
+        "set_by_user_id": 29
+      }
+    ],
     "mpc_name": null,
-    "healpix": 2035423059869367600,
+    "healpix": 1128869730702780200,
     "offset": 0,
     "altdata": null,
     "gcn_crossmatch": null,
-    "internal_key": "cc7569c9-66f5-4948-83b4-44ea041999e4",
+    "internal_key": "5585e03e-6d76-4f9b-a5b9-3697c51e39f5",
     "redshift": null,
     "dist_nearest_source": null,
     "tns_name": null,
@@ -33,176 +62,918 @@
     "redshift_error": null,
     "mag_nearest_source": null,
     "tns_info": null,
-    "created_at": "2023-09-14T04:15:52.146814",
+    "created_at": "2022-07-25T08:24:08.046812",
     "photstats": [
       {
-        "num_obs_global": 2,
-        "last_detected_mjd": 60200.12554414352,
-        "last_detected_no_forced_phot_filter": "2massj",
-        "mean_color": {},
-        "rise_rate": null,
+        "num_obs_global": 33,
+        "last_detected_mjd": 59787.31240739999,
+        "last_detected_no_forced_phot_filter": "ztfr",
+        "mean_color": {
+          "ztfg-ztfr": 0.2783891623285548,
+          "ztfr-ztfg": -0.2783891623285548
+        },
+        "rise_rate": 0.1963375309908557,
         "num_obs_per_filter": {
-          "2massj": 2
+          "ztfg": 17,
+          "ztfr": 16
         },
-        "last_detected_mag": 12.224870345823303,
-        "recent_obs_mjd": 60200.12554414352,
-        "peak_mjd_global": 60200.12554414352,
+        "last_detected_mag": 19.61300687974159,
+        "recent_obs_mjd": 59787.31240739999,
+        "peak_mjd_global": 59787.31240739999,
         "decay_rate": null,
-        "num_det_global": 2,
-        "last_detected_filter": "2massj",
-        "predetection_mjds": [],
+        "num_det_global": 8,
+        "last_detected_filter": "ztfr",
+        "predetection_mjds": [
+          59755.31853009993,
+          59757.28700229991,
+          59757.3442592998,
+          59759.28265050007,
+          59759.327175899874,
+          59761.28300930001,
+          59761.351157399826,
+          59763.31802080013,
+          59763.369398099836,
+          59765.3891551001,
+          59768.3238309999,
+          59768.36973380018,
+          59770.2176967999,
+          59770.32398150023,
+          59772.31135419989,
+          59772.40748840012,
+          59774.22457179986,
+          59774.29906249978,
+          59776.23699070001,
+          59776.33935189992,
+          59779.26555560017,
+          59779.32759260014,
+          59781.28359950008,
+          59781.3714815001
+        ],
         "peak_mjd_per_filter": {
-          "2massj": 60200.12554414352
+          "ztfg": 59787.26378470007,
+          "ztfr": 59787.31240739999
         },
-        "mag_rms_global": 0.3207193672474773,
-        "num_det_no_forced_phot_global": 2,
-        "first_detected_no_forced_phot_mjd": 60200.12554414352,
-        "last_non_detection_mjd": null,
-        "peak_mag_global": 12.224870345823303,
+        "mag_rms_global": 0.29602408993111984,
+        "num_det_no_forced_phot_global": 8,
+        "first_detected_no_forced_phot_mjd": 59783.298171299975,
+        "last_non_detection_mjd": 59781.3714815001,
+        "peak_mag_global": 19.61300687974159,
         "mag_rms_per_filter": {
-          "2massj": 0.3207193672474773
+          "ztfg": 0.2876771826461761,
+          "ztfr": 0.2175145985820555
         },
         "num_det_per_filter": {
-          "2massj": 2
+          "ztfg": 5,
+          "ztfr": 3
         },
-        "first_detected_no_forced_phot_mag": 12.224870345823303,
-        "time_to_non_detection": null,
+        "first_detected_no_forced_phot_mag": 20.68219974270605,
+        "time_to_non_detection": 1.926689799875021,
         "peak_mag_per_filter": {
-          "2massj": 12.224870345823303
+          "ztfg": 19.90360099886657,
+          "ztfr": 19.61300687974159
         },
-        "id": 35807,
-        "last_update": "2023-09-14T04:30:23.884177",
-        "first_detected_mjd": 60200.12554414352,
-        "first_detected_no_forced_phot_filter": "2massj",
-        "mean_mag_global": 12.54558971307078,
-        "faintest_mag_global": 12.866309080318258,
-        "created_at": "2023-09-14T04:15:52.274852",
-        "last_full_update": "2023-09-14T04:15:52.328849",
-        "first_detected_mag": 12.224870345823303,
-        "last_detected_no_forced_phot_mjd": 60200.12554414352,
+        "id": 29063,
+        "last_update": "2023-07-07T17:19:41.953592",
+        "first_detected_mjd": 59783.298171299975,
+        "first_detected_no_forced_phot_filter": "ztfg",
+        "mean_mag_global": 20.094612200186315,
+        "faintest_mag_global": 20.68219974270605,
+        "created_at": "2022-07-25T08:24:08.242616",
+        "last_full_update": "2023-07-07T17:19:41.953599",
+        "first_detected_mag": 20.68219974270605,
+        "last_detected_no_forced_phot_mjd": 59787.31240739999,
         "faintest_mag_per_filter": {
-          "2massj": 12.866309080318258
+          "ztfg": 20.68219974270605,
+          "ztfr": 20.074449881738616
         },
-        "deepest_limit_global": null,
-        "modified": "2023-09-14T04:30:23.830285",
-        "obj_id": "WNTR23aaaws",
-        "first_detected_filter": "2massj",
-        "last_detected_no_forced_phot_mag": 12.224870345823303,
+        "deepest_limit_global": 20.554000854492188,
+        "modified": "2023-07-07T17:19:41.944995",
+        "obj_id": "ZTF22aavzfwp",
+        "first_detected_filter": "ztfg",
+        "last_detected_no_forced_phot_mag": 19.61300687974159,
         "mean_mag_per_filter": {
-          "2massj": 12.54558971307078
+          "ztfg": 20.199008136059525,
+          "ztfr": 19.92061897373097
         },
-        "deepest_limit_per_filter": {}
+        "deepest_limit_per_filter": {
+          "ztfg": 20.554000854492188,
+          "ztfr": 20.507699966430664
+        }
       }
     ],
     "thumbnails": [
       {
-        "file_uri": "/skyportal/static/thumbnails/11/55/WNTR23aaaws_sub.png",
-        "public_url": "/static/thumbnails/11/55/WNTR23aaaws_sub.png",
-        "obj_id": "WNTR23aaaws",
-        "id": 211217,
-        "modified": "2023-09-14T04:15:52.610785",
-        "origin": null,
-        "type": "sub",
-        "is_grayscale": true,
-        "created_at": "2023-09-14T04:15:52.610785"
-      },
-      {
-        "file_uri": "/skyportal/static/thumbnails/11/55/WNTR23aaaws_new.png",
-        "public_url": "/static/thumbnails/11/55/WNTR23aaaws_new.png",
-        "obj_id": "WNTR23aaaws",
-        "id": 211215,
-        "modified": "2023-09-14T04:15:52.412919",
-        "origin": null,
+        "file_uri": "/skyportal/static/thumbnails/ZTF22aavzfwp_new.png",
+        "public_url": "/static/thumbnails/ZTF22aavzfwp_new.png",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 196461,
+        "modified": "2022-07-25T08:24:08.557102",
         "type": "new",
+        "origin": null,
         "is_grayscale": true,
-        "created_at": "2023-09-14T04:15:52.412919"
+        "created_at": "2022-07-25T08:24:08.557102"
       },
       {
-        "file_uri": "/skyportal/static/thumbnails/11/55/WNTR23aaaws_ref.png",
-        "public_url": "/static/thumbnails/11/55/WNTR23aaaws_ref.png",
-        "obj_id": "WNTR23aaaws",
-        "id": 211216,
-        "modified": "2023-09-14T04:15:52.514212",
-        "origin": null,
+        "file_uri": "/skyportal/static/thumbnails/ZTF22aavzfwp_ref.png",
+        "public_url": "/static/thumbnails/ZTF22aavzfwp_ref.png",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 196462,
+        "modified": "2022-07-25T08:24:08.720462",
         "type": "ref",
+        "origin": null,
+        "is_grayscale": false,
+        "created_at": "2022-07-25T08:24:08.720462"
+      },
+      {
+        "file_uri": "/skyportal/static/thumbnails/ZTF22aavzfwp_sub.png",
+        "public_url": "/static/thumbnails/ZTF22aavzfwp_sub.png",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 196463,
+        "modified": "2022-07-25T08:24:08.869368",
+        "type": "sub",
+        "origin": null,
         "is_grayscale": true,
-        "created_at": "2023-09-14T04:15:52.514212"
+        "created_at": "2022-07-25T08:24:08.869368"
       },
       {
         "file_uri": null,
-        "public_url": "https://skyserver.sdss.org/dr12/SkyserverWS/ImgCutout/getjpeg?ra=271.0403312264301&dec=-20.389258007972437&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
-        "obj_id": "WNTR23aaaws",
-        "id": 211224,
-        "modified": "2023-09-14T04:15:52.917652",
-        "origin": null,
+        "public_url": "https://skyserver.sdss.org/dr12/SkyserverWS/ImgCutout/getjpeg?ra=272.0206097&dec=66.1812516&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 196464,
+        "modified": "2022-07-25T08:24:08.096604",
         "type": "sdss",
+        "origin": null,
         "is_grayscale": false,
-        "created_at": "2023-09-14T04:15:52.917652"
+        "created_at": "2022-07-25T08:24:08.096604"
       },
       {
         "file_uri": null,
-        "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=271.0403312264301&dec=-20.389258007972437&size=200&layer=ls-dr9&pixscale=0.262&bands=grz",
-        "obj_id": "WNTR23aaaws",
-        "id": 211225,
-        "modified": "2023-09-14T04:15:52.917652",
+        "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=272.0206097&dec=66.1812516&size=200&layer=dr8&pixscale=0.262&bands=grz",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 196465,
+        "modified": "2022-07-25T08:24:08.096604",
+        "type": "dr8",
         "origin": null,
+        "is_grayscale": false,
+        "created_at": "2022-07-25T08:24:08.096604"
+      },
+      {
+        "file_uri": null,
+        "public_url": "https://skyserver.sdss.org/dr12/SkyserverWS/ImgCutout/getjpeg?ra=272.0206097&dec=66.1812516&scale=0.3&width=200&height=200&opt=G&query=&Grid=on",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 197527,
+        "modified": "2022-12-21T22:00:27.910197",
+        "type": "sdss",
+        "origin": null,
+        "is_grayscale": false,
+        "created_at": "2022-12-21T22:00:27.910197"
+      },
+      {
+        "file_uri": null,
+        "public_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=272.0206097&dec=66.1812516&size=200&layer=ls-dr9&pixscale=0.262&bands=grz",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 197528,
+        "modified": "2022-12-21T22:00:27.910197",
         "type": "ls",
+        "origin": null,
         "is_grayscale": false,
-        "created_at": "2023-09-14T04:15:52.917652"
+        "created_at": "2022-12-21T22:00:27.910197"
       },
       {
         "file_uri": null,
-        "public_url": "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/0859/092/rings.v3.skycell.0859.092.stk.i.unconv.fits&blue=/rings.v3.skycell/0859/092/rings.v3.skycell.0859.092.stk.g.unconv.fits&green=/rings.v3.skycell/0859/092/rings.v3.skycell.0859.092.stk.r.unconv.fits&x=271.040331&y=-20.389258&size=250&wcs=1&asinh=True&autoscale=99.750000",
-        "obj_id": "WNTR23aaaws",
-        "id": 211226,
-        "modified": "2023-09-14T04:15:52.917652",
-        "origin": null,
+        "public_url": "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?red=/rings.v3.skycell/2528/050/rings.v3.skycell.2528.050.stk.i.unconv.fits&blue=/rings.v3.skycell/2528/050/rings.v3.skycell.2528.050.stk.g.unconv.fits&green=/rings.v3.skycell/2528/050/rings.v3.skycell.2528.050.stk.r.unconv.fits&x=272.020610&y=66.181252&size=250&wcs=1&asinh=True&autoscale=99.750000",
+        "obj_id": "ZTF22aavzfwp",
+        "id": 197529,
+        "modified": "2022-12-21T22:00:27.879868",
         "type": "ps1",
+        "origin": null,
         "is_grayscale": false,
-        "created_at": "2023-09-14T04:15:52.917652"
-      },
-      {
-        "file_uri": "/skyportal/static/thumbnails/11/55/WNTR23aaaws_sub.png",
-        "public_url": "/static/thumbnails/11/55/WNTR23aaaws_sub.png",
-        "obj_id": "WNTR23aaaws",
-        "id": 212855,
-        "modified": "2023-09-14T04:30:24.164968",
-        "origin": null,
-        "type": "sub",
-        "is_grayscale": true,
-        "created_at": "2023-09-14T04:30:24.164968"
-      },
-      {
-        "file_uri": "/skyportal/static/thumbnails/11/55/WNTR23aaaws_new.png",
-        "public_url": "/static/thumbnails/11/55/WNTR23aaaws_new.png",
-        "obj_id": "WNTR23aaaws",
-        "id": 212853,
-        "modified": "2023-09-14T04:30:23.961591",
-        "origin": null,
-        "type": "new",
-        "is_grayscale": true,
-        "created_at": "2023-09-14T04:30:23.961591"
-      },
-      {
-        "file_uri": "/skyportal/static/thumbnails/11/55/WNTR23aaaws_ref.png",
-        "public_url": "/static/thumbnails/11/55/WNTR23aaaws_ref.png",
-        "obj_id": "WNTR23aaaws",
-        "id": 212854,
-        "modified": "2023-09-14T04:30:24.066726",
-        "origin": null,
-        "type": "ref",
-        "is_grayscale": false,
-        "created_at": "2023-09-14T04:30:24.066726"
+        "created_at": "2022-12-21T22:00:27.879868"
       }
     ],
-    "classifications": [],
+    "followup_requests": [],
+    "assignments": [],
+    "galaxies": [
+      "WISEA J180805.21+661055.2"
+    ],
+    "duplicates": null,
+    "first_detected": "2022-07-23T07:09:22.000",
+    "last_detected": "2022-07-27T07:29:51.999",
+    "comments": [
+      {
+        "obj_id": "ZTF22aavzfwp",
+        "modified": "2023-03-09T22:14:26.720265",
+        "attachment_name": null,
+        "origin": null,
+        "author_id": 29,
+        "id": 1010,
+        "created_at": "2023-03-09T22:14:26.720265",
+        "text": "Looks like a suprnova?\n",
+        "bot": false,
+        "author": {
+          "username": "joshb",
+          "first_name": "Joshua",
+          "last_name": "Bloom",
+          "affiliations": [],
+          "contact_email": "profjsb@gmail.com",
+          "contact_phone": null,
+          "oauth_uid": "profjsb@gmail.com",
+          "expiration_date": null,
+          "id": 29,
+          "created_at": "2020-10-22T07:56:46.425658",
+          "modified": "2023-03-10T05:31:43.307169",
+          "gravatar_url": "https://secure.gravatar.com/avatar/3e2e12747b64c892a79d9c121995c9e4?d=blank"
+        },
+        "groups": [
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1,
+            "created_at": "2020-10-21T00:50:25.965131",
+            "modified": "2020-10-21T00:50:25.965131",
+            "nickname": null,
+            "name": "Sitewide Group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 4,
+            "created_at": "2020-10-21T01:09:50.216813",
+            "modified": "2020-10-21T01:09:50.216813",
+            "nickname": null,
+            "name": "ZTF Science Validation",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 5,
+            "created_at": "2020-10-21T01:09:50.235057",
+            "modified": "2020-10-21T01:09:50.235057",
+            "nickname": null,
+            "name": "Redshift Completeness Factor",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 6,
+            "created_at": "2020-10-21T01:09:50.250419",
+            "modified": "2020-10-21T01:09:50.250419",
+            "nickname": null,
+            "name": "Census of the Local Universe",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 7,
+            "created_at": "2020-10-21T01:09:50.264714",
+            "modified": "2020-10-21T01:09:50.264714",
+            "nickname": null,
+            "name": "Young SNe Ia",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 8,
+            "created_at": "2020-10-21T01:09:50.278987",
+            "modified": "2020-10-21T01:09:50.278987",
+            "nickname": null,
+            "name": "EM + GW",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 9,
+            "created_at": "2020-10-21T01:09:50.293130",
+            "modified": "2020-10-21T01:09:50.293130",
+            "nickname": null,
+            "name": "Short GRB",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 10,
+            "created_at": "2020-10-21T01:09:50.307901",
+            "modified": "2020-10-21T01:09:50.307901",
+            "nickname": null,
+            "name": "Infant SNe",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 11,
+            "created_at": "2020-10-21T01:09:50.321275",
+            "modified": "2020-10-21T01:09:50.321275",
+            "nickname": null,
+            "name": "Fast Transients",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 12,
+            "created_at": "2020-10-21T01:09:50.335219",
+            "modified": "2020-10-21T01:09:50.335219",
+            "nickname": null,
+            "name": "Red Transients",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 13,
+            "created_at": "2020-10-21T01:09:50.349082",
+            "modified": "2020-10-21T01:09:50.349082",
+            "nickname": null,
+            "name": "Superluminous Supernovae",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 14,
+            "created_at": "2020-10-21T01:09:50.362395",
+            "modified": "2020-10-21T01:09:50.362395",
+            "nickname": null,
+            "name": "X-ray Counterparts",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 15,
+            "created_at": "2020-10-21T01:09:50.375531",
+            "modified": "2020-10-21T01:09:50.375531",
+            "nickname": null,
+            "name": "Outbursting Stars",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 55,
+            "created_at": "2021-04-01T02:37:29.088246",
+            "modified": "2021-04-01T02:37:29.088246",
+            "nickname": "dag",
+            "name": "dannys awesome group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 56,
+            "created_at": "2021-04-01T02:49:57.191145",
+            "modified": "2021-04-01T02:49:57.191145",
+            "nickname": "dag2",
+            "name": "dannys second group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 58,
+            "created_at": "2021-05-05T06:51:35.999670",
+            "modified": "2021-05-05T06:51:35.999670",
+            "nickname": "odd",
+            "name": "Anomalies",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 59,
+            "created_at": "2021-05-25T00:08:55.877408",
+            "modified": "2021-05-25T00:08:55.877408",
+            "nickname": "skipper",
+            "name": "Skipper",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 60,
+            "created_at": "2021-08-04T21:22:15.701804",
+            "modified": "2021-08-04T21:22:15.701804",
+            "nickname": "pgir",
+            "name": "Palomar Gattini-IR",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1062,
+            "created_at": "2022-06-10T07:49:06.846537",
+            "modified": "2022-06-10T07:49:06.846537",
+            "nickname": "stefan",
+            "name": "Stéfan's test group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1065,
+            "created_at": "2022-06-30T19:34:44.260568",
+            "modified": "2022-06-30T19:34:44.260568",
+            "nickname": "ggroup",
+            "name": "Guy's group",
+            "description": "guy's attempt to test some stuff"
+          }
+        ]
+      },
+      {
+        "obj_id": "ZTF22aavzfwp",
+        "modified": "2023-01-19T22:39:14.579132",
+        "attachment_name": "space_cat1",
+        "origin": null,
+        "author_id": 31,
+        "id": 1008,
+        "created_at": "2023-01-19T22:39:14.579132",
+        "text": "let me see about comment attachments",
+        "bot": false,
+        "author": {
+          "username": "guynir",
+          "first_name": "Guy",
+          "last_name": "Nir",
+          "affiliations": [],
+          "contact_email": "guyynir@gmail.com",
+          "contact_phone": null,
+          "oauth_uid": "guyynir@gmail.com",
+          "expiration_date": null,
+          "id": 31,
+          "created_at": "2020-10-22T07:56:46.529385",
+          "modified": "2023-03-09T21:55:23.683476",
+          "gravatar_url": "https://secure.gravatar.com/avatar/d27df87d397e69bf58b7e95c72ef9dbf?d=blank"
+        },
+        "groups": [
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1,
+            "created_at": "2020-10-21T00:50:25.965131",
+            "modified": "2020-10-21T00:50:25.965131",
+            "nickname": null,
+            "name": "Sitewide Group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 4,
+            "created_at": "2020-10-21T01:09:50.216813",
+            "modified": "2020-10-21T01:09:50.216813",
+            "nickname": null,
+            "name": "ZTF Science Validation",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 5,
+            "created_at": "2020-10-21T01:09:50.235057",
+            "modified": "2020-10-21T01:09:50.235057",
+            "nickname": null,
+            "name": "Redshift Completeness Factor",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 6,
+            "created_at": "2020-10-21T01:09:50.250419",
+            "modified": "2020-10-21T01:09:50.250419",
+            "nickname": null,
+            "name": "Census of the Local Universe",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 7,
+            "created_at": "2020-10-21T01:09:50.264714",
+            "modified": "2020-10-21T01:09:50.264714",
+            "nickname": null,
+            "name": "Young SNe Ia",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 8,
+            "created_at": "2020-10-21T01:09:50.278987",
+            "modified": "2020-10-21T01:09:50.278987",
+            "nickname": null,
+            "name": "EM + GW",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 9,
+            "created_at": "2020-10-21T01:09:50.293130",
+            "modified": "2020-10-21T01:09:50.293130",
+            "nickname": null,
+            "name": "Short GRB",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 10,
+            "created_at": "2020-10-21T01:09:50.307901",
+            "modified": "2020-10-21T01:09:50.307901",
+            "nickname": null,
+            "name": "Infant SNe",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 11,
+            "created_at": "2020-10-21T01:09:50.321275",
+            "modified": "2020-10-21T01:09:50.321275",
+            "nickname": null,
+            "name": "Fast Transients",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 12,
+            "created_at": "2020-10-21T01:09:50.335219",
+            "modified": "2020-10-21T01:09:50.335219",
+            "nickname": null,
+            "name": "Red Transients",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 13,
+            "created_at": "2020-10-21T01:09:50.349082",
+            "modified": "2020-10-21T01:09:50.349082",
+            "nickname": null,
+            "name": "Superluminous Supernovae",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 14,
+            "created_at": "2020-10-21T01:09:50.362395",
+            "modified": "2020-10-21T01:09:50.362395",
+            "nickname": null,
+            "name": "X-ray Counterparts",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 15,
+            "created_at": "2020-10-21T01:09:50.375531",
+            "modified": "2020-10-21T01:09:50.375531",
+            "nickname": null,
+            "name": "Outbursting Stars",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 55,
+            "created_at": "2021-04-01T02:37:29.088246",
+            "modified": "2021-04-01T02:37:29.088246",
+            "nickname": "dag",
+            "name": "dannys awesome group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 56,
+            "created_at": "2021-04-01T02:49:57.191145",
+            "modified": "2021-04-01T02:49:57.191145",
+            "nickname": "dag2",
+            "name": "dannys second group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 58,
+            "created_at": "2021-05-05T06:51:35.999670",
+            "modified": "2021-05-05T06:51:35.999670",
+            "nickname": "odd",
+            "name": "Anomalies",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 59,
+            "created_at": "2021-05-25T00:08:55.877408",
+            "modified": "2021-05-25T00:08:55.877408",
+            "nickname": "skipper",
+            "name": "Skipper",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 60,
+            "created_at": "2021-08-04T21:22:15.701804",
+            "modified": "2021-08-04T21:22:15.701804",
+            "nickname": "pgir",
+            "name": "Palomar Gattini-IR",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1062,
+            "created_at": "2022-06-10T07:49:06.846537",
+            "modified": "2022-06-10T07:49:06.846537",
+            "nickname": "stefan",
+            "name": "Stéfan's test group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1065,
+            "created_at": "2022-06-30T19:34:44.260568",
+            "modified": "2022-06-30T19:34:44.260568",
+            "nickname": "ggroup",
+            "name": "Guy's group",
+            "description": "guy's attempt to test some stuff"
+          }
+        ]
+      }
+    ],
+    "labellers": [
+      {
+        "username": "joshb",
+        "first_name": "Joshua",
+        "last_name": "Bloom",
+        "affiliations": [],
+        "contact_email": "profjsb@gmail.com",
+        "contact_phone": null,
+        "oauth_uid": "profjsb@gmail.com",
+        "expiration_date": null,
+        "id": 29,
+        "created_at": "2020-10-22T07:56:46.425658",
+        "modified": "2023-03-10T05:31:43.307169"
+      },
+      {
+        "username": "tdulaz",
+        "first_name": "Theophile",
+        "last_name": "du laz",
+        "affiliations": [],
+        "contact_email": "theophile.dulaz@gmail.com",
+        "contact_phone": null,
+        "oauth_uid": "theophile.dulaz@gmail.com",
+        "expiration_date": null,
+        "id": 1046,
+        "created_at": "2022-06-10T08:01:21.164043",
+        "modified": "2023-12-11T18:37:33.160601"
+      }
+    ],
     "annotations": [],
-    "gal_lon": 9.501089528522327,
-    "gal_lat": 0.6879161292225767,
+    "classifications": [
+      {
+        "classification": "Supernova",
+        "probability": 1,
+        "author_id": 29,
+        "obj_id": "ZTF22aavzfwp",
+        "created_at": "2023-03-09T22:14:39.789073",
+        "origin": null,
+        "taxonomy_id": 1,
+        "ml": false,
+        "author_name": "joshb",
+        "id": 1016,
+        "modified": "2023-03-09T22:14:39.789073",
+        "groups": [
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1,
+            "created_at": "2020-10-21T00:50:25.965131",
+            "modified": "2020-10-21T00:50:25.965131",
+            "nickname": null,
+            "name": "Sitewide Group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 4,
+            "created_at": "2020-10-21T01:09:50.216813",
+            "modified": "2020-10-21T01:09:50.216813",
+            "nickname": null,
+            "name": "ZTF Science Validation",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 5,
+            "created_at": "2020-10-21T01:09:50.235057",
+            "modified": "2020-10-21T01:09:50.235057",
+            "nickname": null,
+            "name": "Redshift Completeness Factor",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 6,
+            "created_at": "2020-10-21T01:09:50.250419",
+            "modified": "2020-10-21T01:09:50.250419",
+            "nickname": null,
+            "name": "Census of the Local Universe",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 7,
+            "created_at": "2020-10-21T01:09:50.264714",
+            "modified": "2020-10-21T01:09:50.264714",
+            "nickname": null,
+            "name": "Young SNe Ia",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 8,
+            "created_at": "2020-10-21T01:09:50.278987",
+            "modified": "2020-10-21T01:09:50.278987",
+            "nickname": null,
+            "name": "EM + GW",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 9,
+            "created_at": "2020-10-21T01:09:50.293130",
+            "modified": "2020-10-21T01:09:50.293130",
+            "nickname": null,
+            "name": "Short GRB",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 11,
+            "created_at": "2020-10-21T01:09:50.321275",
+            "modified": "2020-10-21T01:09:50.321275",
+            "nickname": null,
+            "name": "Fast Transients",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 12,
+            "created_at": "2020-10-21T01:09:50.335219",
+            "modified": "2020-10-21T01:09:50.335219",
+            "nickname": null,
+            "name": "Red Transients",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 13,
+            "created_at": "2020-10-21T01:09:50.349082",
+            "modified": "2020-10-21T01:09:50.349082",
+            "nickname": null,
+            "name": "Superluminous Supernovae",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 14,
+            "created_at": "2020-10-21T01:09:50.362395",
+            "modified": "2020-10-21T01:09:50.362395",
+            "nickname": null,
+            "name": "X-ray Counterparts",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 55,
+            "created_at": "2021-04-01T02:37:29.088246",
+            "modified": "2021-04-01T02:37:29.088246",
+            "nickname": "dag",
+            "name": "dannys awesome group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 56,
+            "created_at": "2021-04-01T02:49:57.191145",
+            "modified": "2021-04-01T02:49:57.191145",
+            "nickname": "dag2",
+            "name": "dannys second group",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 58,
+            "created_at": "2021-05-05T06:51:35.999670",
+            "modified": "2021-05-05T06:51:35.999670",
+            "nickname": "odd",
+            "name": "Anomalies",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 59,
+            "created_at": "2021-05-25T00:08:55.877408",
+            "modified": "2021-05-25T00:08:55.877408",
+            "nickname": "skipper",
+            "name": "Skipper",
+            "description": null
+          },
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1065,
+            "created_at": "2022-06-30T19:34:44.260568",
+            "modified": "2022-06-30T19:34:44.260568",
+            "nickname": "ggroup",
+            "name": "Guy's group",
+            "description": "guy's attempt to test some stuff"
+          }
+        ],
+        "votes": [
+          {
+            "voter_id": 29,
+            "vote": 1,
+            "created_at": "2023-03-09T22:14:39.789073",
+            "classification_id": 1016,
+            "id": 1,
+            "modified": "2023-03-09T22:14:39.789073"
+          }
+        ]
+      },
+      {
+        "classification": "Ia",
+        "probability": 0.01,
+        "author_id": 1046,
+        "obj_id": "ZTF22aavzfwp",
+        "created_at": "2023-10-13T01:17:03.209655",
+        "origin": null,
+        "taxonomy_id": 1,
+        "ml": false,
+        "author_name": "tdulaz",
+        "id": 1019,
+        "modified": "2023-10-13T01:17:03.209655",
+        "groups": [
+          {
+            "private": false,
+            "single_user_group": false,
+            "id": 1,
+            "created_at": "2020-10-21T00:50:25.965131",
+            "modified": "2020-10-21T00:50:25.965131",
+            "nickname": null,
+            "name": "Sitewide Group",
+            "description": null
+          }
+        ],
+        "votes": [
+          {
+            "voter_id": 1046,
+            "vote": 1,
+            "created_at": "2023-10-13T01:17:03.209655",
+            "classification_id": 1019,
+            "id": 4,
+            "modified": "2023-10-13T01:17:03.209655"
+          }
+        ]
+      }
+    ],
+    "gal_lat": 28.995050788190568,
+    "gal_lon": 95.96485747861604,
     "luminosity_distance": null,
     "dm": null,
     "angular_diameter_distance": null,
-    "labellers": [],
+    "ebv": 0.04184858500957489,
+    "photometry_exists": true,
+    "spectrum_exists": false,
     "groups": [
       {
         "private": false,
@@ -215,19 +986,19 @@
         "description": null,
         "active": true,
         "requested": false,
-        "saved_at": "2023-09-18T06:03:24.355657",
+        "saved_at": "2022-11-25T19:07:01.981042",
         "saved_by": {
-          "username": "tdulaz",
-          "first_name": "Theophile",
-          "last_name": "du laz",
+          "username": "guynir",
+          "first_name": "Guy",
+          "last_name": "Nir",
           "affiliations": [],
-          "contact_email": "theophile.dulaz@gmail.com",
+          "contact_email": "guyynir@gmail.com",
           "contact_phone": null,
-          "oauth_uid": "theophile.dulaz@gmail.com",
+          "oauth_uid": "guyynir@gmail.com",
           "expiration_date": null,
-          "id": 1046,
-          "created_at": "2022-06-10T08:01:21.164043",
-          "modified": "2023-12-11T18:37:33.160601"
+          "id": 31,
+          "created_at": "2020-10-22T07:56:46.529385",
+          "modified": "2023-03-09T21:55:23.683476"
         }
       }
     ],
@@ -321,8 +1092,8 @@
         "obj_id": "GRB230311.202531",
         "id": 197567,
         "modified": "2023-03-11T20:25:57.016239",
-        "origin": null,
         "type": "sdss",
+        "origin": null,
         "is_grayscale": true,
         "created_at": "2023-03-11T20:25:57.016239"
       },
@@ -332,8 +1103,8 @@
         "obj_id": "GRB230311.202531",
         "id": 197568,
         "modified": "2023-03-11T20:25:57.016239",
-        "origin": null,
         "type": "ls",
+        "origin": null,
         "is_grayscale": false,
         "created_at": "2023-03-11T20:25:57.016239"
       },
@@ -343,20 +1114,28 @@
         "obj_id": "GRB230311.202531",
         "id": 197569,
         "modified": "2023-04-13T23:26:19.833511",
-        "origin": null,
         "type": "ps1",
+        "origin": null,
         "is_grayscale": false,
         "created_at": "2023-04-13T23:26:19.833511"
       }
     ],
-    "classifications": [],
+    "followup_requests": [],
+    "assignments": [],
+    "galaxies": null,
+    "duplicates": null,
+    "comments": [],
+    "labellers": [],
     "annotations": [],
-    "gal_lon": 159.60187787399607,
+    "classifications": [],
     "gal_lat": -1.3115081832452418,
+    "gal_lon": 159.60187787399607,
     "luminosity_distance": null,
     "dm": null,
     "angular_diameter_distance": null,
-    "labellers": [],
+    "ebv": 1.3010231256484985,
+    "photometry_exists": false,
+    "spectrum_exists": false,
     "groups": [
       {
         "private": false,
